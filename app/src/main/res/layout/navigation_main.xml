@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/nav_iv_userimg"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/nav_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홍길동"
+        android:layout_below="@id/nav_iv_userimg"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_CafeSearch"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="카페 검색" />
+    <item
+        android:id="@+id/action_Community"
+        app:showAsAction="always"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="커뮤니티" />
+    <item
+        android:id="@+id/action_Ranking"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@android:drawable/star_big_off"
+        android:title="랭킹" />
+    <item
+        android:id="@+id/action_MyCafe"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/coffee_icon"
+        android:title="나만의 카페" />
+
+</menu>
