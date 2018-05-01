@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -58,6 +59,7 @@ public class LoginActivity extends AppCompatActivity {
             String refreshToken = mOAuthLoginModule.getRefreshToken(context);
             long expiresAt = mOAuthLoginModule.getExpiresAt(context);
             String tokenType = mOAuthLoginModule.getTokenType(context);
+            Log.i("member","accessToken : "+accessToken+"refreshToken : "+refreshToken+"expiresAt : "+expiresAt+"tokenType : "+tokenType);
         }else{
             String errorCode = mOAuthLoginModule.getLastErrorCode(context).getCode();
             String errorDesc = mOAuthLoginModule.getLastErrorDesc(context);

@@ -34,15 +34,9 @@ dependencies {
 
     implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
 
+
+
     compile "com.android.support:design:26.1.0"
     compile 'com.naver.maps.open:naver-map-api:2.1.2@aar'
-
     compile ('com.naver.nid:naveridlogin-android-sdk:4.2.0')
-    compile files('libs/naveridlogin_android_sdk_4.2.0.aar')
-
-
 }
-
-
-
-
