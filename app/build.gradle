@@ -37,13 +37,12 @@ dependencies {
     compile "com.android.support:design:26.1.0"
     compile 'com.naver.maps.open:naver-map-api:2.1.2@aar'
 
-    //noinspection GradleCompatible
-    compile 'com.google.android.gms:play-services-auth:12.0.1'
+    compile ('com.naver.nid:naveridlogin-android-sdk:4.2.0')
+    compile files('libs/naveridlogin_android_sdk_4.2.0.aar')
 
-    compile 'com.google.firebase:firebase-core:12.0.1'
+
 }
 
-//apply plugin: 'com.google.gms.google-services'
 
 
 

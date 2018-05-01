@@ -59,7 +59,7 @@
             android:id="@+id/gest_Btn"
             android:layout_width="110dp"
             android:layout_height="40dp"
-            android:layout_below="@+id/login_Btn"
+            android:layout_below="@+id/button_naverlogin"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:background="#00aa8d"
@@ -69,19 +69,13 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
 
-        <Button
-            android:id="@+id/login_Btn"
-            android:layout_width="110dp"
-            android:layout_height="40dp"
-            android:layout_below="@id/login_PS"
-            android:layout_centerHorizontal="true"
+        <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
             android:layout_marginTop="8dp"
-            android:background="#00aa8d"
-            android:gravity="center"
-            android:text="로그인"
-            android:textColor="#ffffff"
-            android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:id="@+id/button_naverlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/login_PS"
+            />
 
 
         <!--<com.google.android.gms.common.SignInButton-->
