@@ -9,6 +9,7 @@ import com.kakao.auth.KakaoSDK;
  */
 
 public class GlobalApplication extends Application {
+
     private static volatile GlobalApplication instance = null;
     private static volatile Activity currentActivity = null;
 
@@ -31,3 +32,4 @@ public class GlobalApplication extends Application {
         return currentActivity;
     }
 }
+

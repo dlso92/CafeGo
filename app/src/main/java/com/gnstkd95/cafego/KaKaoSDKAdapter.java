@@ -1,5 +1,6 @@
 package com.gnstkd95.cafego;
 
+import android.app.Activity;
 import android.content.Context;
 
 import com.kakao.auth.ApprovalType;
@@ -12,7 +13,7 @@ import com.kakao.auth.KakaoAdapter;
  * Created by alfo6-7 on 2018-05-02.
  */
 
-public class KaKaoSDKAdapter extends KakaoAdapter {
+public class KaKaoSDKAdapter extends KakaoAdapter{
 
     @Override
     public ISessionConfig getSessionConfig() {
@@ -26,11 +27,6 @@ public class KaKaoSDKAdapter extends KakaoAdapter {
 
             @Override
             public boolean isUsingWebviewTimer() {
-                return false;
-            }
-
-            @Override
-            public boolean isSecureMode() {
                 return false;
             }
 
@@ -51,9 +47,15 @@ public class KaKaoSDKAdapter extends KakaoAdapter {
     public IApplicationConfig getApplicationConfig() {
         return new IApplicationConfig() {
             @Override
+            public Activity getTopActivity() {
+                return null;
+            }
+
+            @Override
             public Context getApplicationContext() {
                 return GlobalApplication.getGlobalApplicationContext();
             }
         };
     }
 }
+
