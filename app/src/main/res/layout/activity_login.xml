@@ -59,7 +59,7 @@
             android:id="@+id/gest_Btn"
             android:layout_width="110dp"
             android:layout_height="40dp"
-            android:layout_below="@+id/login_Btn"
+            android:layout_below="@+id/login_PS"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:background="#00aa8d"
@@ -73,7 +73,7 @@
             android:id="@+id/login_Btn"
             android:layout_width="110dp"
             android:layout_height="40dp"
-            android:layout_below="@id/login_PS"
+            android:layout_below="@id/gest_Btn"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:background="#00aa8d"
@@ -82,12 +82,13 @@
             android:textColor="#ffffff"
             android:textSize="24sp"
             android:textStyle="bold"/>
+
         <!--<com.kakao.usermgmt.LoginButton-->
             <!--android:id="@+id/com_kakao_login"-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
             <!--android:layout_below="@id/login_Btn"-->
-            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_marginTop="10dp"-->
             <!--android:layout_centerHorizontal="true">-->
 
         <!--</com.kakao.usermgmt.LoginButton>-->

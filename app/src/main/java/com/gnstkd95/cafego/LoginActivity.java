@@ -28,10 +28,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ID = findViewById(R.id.login_ID);
-        PS = findViewById(R.id.login_PS);
-        gest_Btn = findViewById(R.id.gest_Btn);
-        getHashKey();
+//        ID = findViewById(R.id.login_ID);
+//        PS = findViewById(R.id.login_PS);
+//        gest_Btn = findViewById(R.id.gest_Btn);
+//        getHashKey();
 //        try {
 //            PackageInfo info = getPackageManager().getPackageInfo(this.getPackageName(),PackageManager.GET_SIGNATURES);
 //            for (Signature signature : info.signatures){
