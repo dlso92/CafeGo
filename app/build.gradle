@@ -39,7 +39,7 @@ dependencies {
     implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
     //naver맵
     compile 'com.naver.maps.open:naver-map-api:2.1.2@aar'
-
+    //카카오로그인
     compile group: 'com.kakao.sdk', name: 'usermgmt', version: project.KAKAO_SDK_VERSION
 
 }
