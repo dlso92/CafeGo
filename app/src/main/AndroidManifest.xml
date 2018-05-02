@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".GlobalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -25,13 +26,16 @@
             android:theme="@style/main" />
         <activity
             android:name=".Recycler_FocusActivity"
-            android:theme="@style/main">
+            android:theme="@style/main"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/main"></activity>
 
-        </activity>
-        <activity android:name=".LoginActivity"
-            android:theme="@style/main">
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
 
-        </activity>
+        <activity android:name=".KakaoSignupActivity"></activity>
     </application>
 
 </manifest>

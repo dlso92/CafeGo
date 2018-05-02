@@ -29,8 +29,8 @@
     </android.support.design.widget.AppBarLayout>
 
     <RelativeLayout
-        android:layout_width="300dp"
-        android:layout_height="250dp"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="80dp"
@@ -82,19 +82,15 @@
             android:textColor="#ffffff"
             android:textSize="24sp"
             android:textStyle="bold"/>
-
-
-        <!--<com.google.android.gms.common.SignInButton-->
-            <!--android:layout_below="@id/login_PS"-->
-            <!--android:id="@+id/google_Btn"-->
+        <!--<com.kakao.usermgmt.LoginButton-->
+            <!--android:id="@+id/com_kakao_login"-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_marginTop="8dp"-->
-            <!--&gt;-->
+            <!--android:layout_below="@id/login_Btn"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_centerHorizontal="true">-->
 
-        <!--</com.google.android.gms.common.SignInButton>-->
-
+        <!--</com.kakao.usermgmt.LoginButton>-->
 
         </RelativeLayout>
 
